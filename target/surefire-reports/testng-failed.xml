@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Testing(failed)" verbose="0">
+    <classes>
+      <class name="com.assignmentDNB.test.LoginPageTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="secondTestCase"/>
+          <include name="BeforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.assignmentDNB.test.LoginPageTest -->
+    </classes>
+  </test> <!-- Testing(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
