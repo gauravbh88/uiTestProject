@@ -28,7 +28,8 @@ Report can be found in project root folder
 
 Report in case of an error with screenshot embedded in report:
 
-![image](https://user-images.githubusercontent.com/43292554/158153021-786fe364-39c3-439d-8f94-5e5c0f331e97.png)
+![image](https://user-images.githubusercontent.com/43292554/158154890-2696a27d-e8fc-4c1a-b616-4f93ee90ced5.png)
+
 
 
 Report in case of success:
