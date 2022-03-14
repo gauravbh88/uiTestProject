@@ -37,6 +37,10 @@ Report in case of success:
 ![image](https://user-images.githubusercontent.com/43292554/158155157-ab3879f1-ac9b-4b79-80bd-997d6ef60965.png)
 
 
+# Page Object Model
+
+![image](https://user-images.githubusercontent.com/43292554/158155514-3d787bba-c545-4d77-90c1-eca9cdc5b8d6.png)
+
 
 #  Properties file
 
