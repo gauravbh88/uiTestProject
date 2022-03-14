@@ -36,10 +36,6 @@ Report in case of success:
 ![image](https://user-images.githubusercontent.com/43292554/158153753-a6449166-b3d2-4548-8345-4e9e24d9331d.png)
 
 
-
-
-![image](https://user-images.githubusercontent.com/43292554/158151546-a3ceee3c-b13d-4acb-8ba1-0694e23d2c58.png)
-
 #  Properties file
 
 Browers, BaseURL, Username and password is being read by properties file
