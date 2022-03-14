@@ -25,9 +25,11 @@ Report can be found in project root folder
 
 ![image](https://user-images.githubusercontent.com/43292554/158152899-36e5739a-3624-43b9-8045-8cab44da23ae.png)
 
-Report in case of and error with screenshot embedded in report:
+
+Report in case of an error with screenshot embedded in report:
 
 ![image](https://user-images.githubusercontent.com/43292554/158153021-786fe364-39c3-439d-8f94-5e5c0f331e97.png)
+
 
 Report in case of success:
 
