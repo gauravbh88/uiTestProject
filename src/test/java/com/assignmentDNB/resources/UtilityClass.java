@@ -76,9 +76,6 @@ public class UtilityClass {
 			}
 	  	}
 
-	//public static Logger log = LogManager.getLogger(utility.class);
-	
-// Getting the values of property from data.properties file	
 	
 public String getProrpertiesValue(String keyword) throws IOException
 	{
