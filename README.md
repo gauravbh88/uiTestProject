@@ -34,7 +34,8 @@ Report in case of an error with screenshot embedded in report:
 
 Report in case of success:
 
-![image](https://user-images.githubusercontent.com/43292554/158153753-a6449166-b3d2-4548-8345-4e9e24d9331d.png)
+![image](https://user-images.githubusercontent.com/43292554/158155157-ab3879f1-ac9b-4b79-80bd-997d6ef60965.png)
+
 
 
 #  Properties file
