@@ -14,12 +14,67 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+
+import com.assignmentDNB.pom.LoginPageObject;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class UtilityClass {
 	
 	public static WebDriver driver;
+	public static ExtentTest test;
+	public static ExtentHtmlReporter htmlReporter;
+	public static ExtentReports extent;
+	
+	
+	@BeforeSuite
+
+	public void BeforeSuite() throws IOException {
+	
+		
+		htmlReporter = new ExtentHtmlReporter("TestReport.html");
+		extent = new ExtentReports();
+		extent.attachReporter(htmlReporter);
+	
+	
+	}
+	
+	 
+	  @AfterSuite
+	  public void afterTest() {
+		  extent.flush();
+		  driver.quit();
+		  
+	  }
+	  
+	  @AfterMethod
+	  public void afterMethod(ITestResult result) throws IOException {
+		  
+		  if(result.getStatus() == ITestResult.FAILURE) {
+			  
+			  String screenShotPath = getScreenShot(driver);
+			  test.log(Status.FAIL, "Test failed,   Error :" + result.getThrowable());
+			  test.log(Status.FAIL, "Error Screenshot :" + test.addScreenCaptureFromPath(screenShotPath));
+					  
+					
+		  }
+		  
+		  else if (result.getStatus() == ITestResult.SKIP) {
+				test.log(Status.SKIP, "Test skipped " + result.getThrowable());
+			} else {
+				test.log(Status.PASS, "Test passed");
+			}
+	  	}
 
 	//public static Logger log = LogManager.getLogger(utility.class);
 	

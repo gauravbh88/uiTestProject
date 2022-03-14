@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-13T14:37:34 CET" name="RegressionSuite" finished-at="2022-03-13T14:38:08 CET" duration-ms="34296">
+  <suite started-at="2022-03-13T15:14:29 CET" name="RegressionSuite" finished-at="2022-03-13T15:15:03 CET" duration-ms="33799">
     <groups>
     </groups>
-    <test started-at="2022-03-13T14:37:34 CET" name="Testing" finished-at="2022-03-13T14:38:08 CET" duration-ms="34296">
+    <test started-at="2022-03-13T15:14:29 CET" name="Testing" finished-at="2022-03-13T15:15:03 CET" duration-ms="33799">
       <class name="com.assignmentDNB.test.LoginPageTest">
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:com.assignmentDNB.test.LoginPageTest@72f926e6]" started-at="2022-03-13T14:37:34 CET" name="BeforeTest" finished-at="2022-03-13T14:37:57 CET" duration-ms="23555" status="PASS">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:com.assignmentDNB.test.LoginPageTest@72f926e6]" started-at="2022-03-13T15:14:29 CET" name="BeforeTest" finished-at="2022-03-13T15:14:54 CET" duration-ms="25048" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method signature="firstTestCase()[pri:0, instance:com.assignmentDNB.test.LoginPageTest@72f926e6]" started-at="2022-03-13T14:37:58 CET" name="firstTestCase" finished-at="2022-03-13T14:38:01 CET" duration-ms="3624" status="PASS">
+        <test-method signature="firstTestCase()[pri:0, instance:com.assignmentDNB.test.LoginPageTest@72f926e6]" started-at="2022-03-13T15:14:55 CET" name="firstTestCase" finished-at="2022-03-13T15:14:57 CET" duration-ms="2193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTestCase -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.assignmentDNB.test.LoginPageTest@72f926e6]" started-at="2022-03-13T14:38:01 CET" name="afterMethod" finished-at="2022-03-13T14:38:01 CET" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.assignmentDNB.test.LoginPageTest@72f926e6]" started-at="2022-03-13T15:14:57 CET" name="afterMethod" finished-at="2022-03-13T15:14:57 CET" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="secondTestCase()[pri:0, instance:com.assignmentDNB.test.LoginPageTest@72f926e6]" started-at="2022-03-13T14:38:01 CET" name="secondTestCase" finished-at="2022-03-13T14:38:06 CET" duration-ms="4315" status="FAIL">
+        <test-method signature="secondTestCase()[pri:0, instance:com.assignmentDNB.test.LoginPageTest@72f926e6]" started-at="2022-03-13T15:14:57 CET" name="secondTestCase" finished-at="2022-03-13T15:15:00 CET" duration-ms="3650" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -76,7 +76,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTestCase -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.assignmentDNB.test.LoginPageTest@72f926e6]" started-at="2022-03-13T14:38:06 CET" name="afterMethod" finished-at="2022-03-13T14:38:07 CET" duration-ms="1345" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.assignmentDNB.test.LoginPageTest@72f926e6]" started-at="2022-03-13T15:15:00 CET" name="afterMethod" finished-at="2022-03-13T15:15:02 CET" duration-ms="1454" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,7 +87,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.assignmentDNB.test.LoginPageTest@72f926e6]" started-at="2022-03-13T14:38:07 CET" name="afterTest" finished-at="2022-03-13T14:38:08 CET" duration-ms="1342" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.assignmentDNB.test.LoginPageTest@72f926e6]" started-at="2022-03-13T15:15:02 CET" name="afterTest" finished-at="2022-03-13T15:15:03 CET" duration-ms="1345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
